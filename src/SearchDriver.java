@@ -5,8 +5,9 @@ public class SearchDriver implements SearchDriverInterface{
 		SearchDriver d = new SearchDriver();
 		d.runLinearSearch(d.getListOfNumbers(), 500, 10);
 		d.runBinarySearch(d.getListOfNumbers(), 500, 10);
+		
 	}
-	
+
 	public int[] getListOfNumbers() {
 		int[] arr = new int[10000000];
 		
