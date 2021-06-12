@@ -8,17 +8,17 @@ public class LinearSearch implements SearchInterface{
 				return i;
 			}
 		}
-		return target;
+		return -1;
 	}
 	
-	public static void main(String[] args) {
-		int[] arr = new int[] {2,4,6,8,10};
-		
-		
-		LinearSearch s = new LinearSearch();
-		int res = s.search(arr, 10);
-		System.out.println(res);
-	}
+//	public static void main(String[] args) {
+//		int[] arr = new int[] {2,4,6,8,10};
+//		
+//		
+//		LinearSearch s = new LinearSearch();
+//		int res = s.search(arr, 10);
+//		System.out.println(res);
+//	}
 	
 }
 
