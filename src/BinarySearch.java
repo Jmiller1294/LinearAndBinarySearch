@@ -22,12 +22,12 @@ public class BinarySearch implements SearchInterface {
 		return -1;
 	}
 	
-//	public static void main(String[] args) {
-//		int[] arr = new int[] {14,26,42,59,71,88,92};
-//		
-//		BinarySearch s = new BinarySearch();
-//		
-//		int res = s.search(arr, 14);
-//		System.out.println(res);
-//	}
+	public static void main(String[] args) {
+		int[] arr = new int[] {14,26,42,59,71,88,92};
+		
+		BinarySearch s = new BinarySearch();
+		
+		int res = s.search(arr, 14);
+		System.out.println(res);
+	}
 }

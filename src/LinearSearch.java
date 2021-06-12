@@ -8,7 +8,7 @@ public class LinearSearch implements SearchInterface{
 				return i;
 			}
 		}
-		return -1;
+		return target;
 	}
 	
 //	public static void main(String[] args) {
